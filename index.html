@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Date" content="2025-02-19T10:45:30+09:00">
+  <meta http-equiv= "X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="오설록">
+  <meta name="description" content="티 제품,티 푸드">
+  <meta name="keywords" content="녹차,홍차,말차,밀크티">
+  <meta name="robots" content="index, follow">
+  <title>반응형웹-오설록</title>
+  <!-- 파비콘 -->
+  <link rel="shortcut icon" type=image/x-icon href="./images/favicon.ico">
+  <!-- css초기화 -->
+  <link href="./css/reset.css" rel="stylesheet" type="text/css">
+
+  <!-- 나눔고딕 웹폰트 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+  <!-- 아이콘폰트 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <!-- 공통서식 common.css -->
+  <link href="./css/common.css" rel="stylesheet" type="text/css">
+
+  <!-- 메인콘텐츠 서식 -->
+  <link href="./css/main.css" rel="stylesheet" type="text/css">
+
+  <!-- 2. table버전 서식 -->
+  <link href="./css/tablet.css" rel="stylesheet" type="text/css">
+
+  <!-- 3. mobile버전 서식 -->
+  <link href="./css/mobile.css" rel="stylesheet" type="text/css">
+
+  <!-- flexslide css서식 -->
+  <link href="./css/flexslider.css" rel="stylesheet" type="text/css">
+
+  <!-- jQuery라이브리 -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+  <!-- flexslide script -->
+  <script src="./script/jquery.flexslider.js"></script>
+</head>
+<body>
+  <input type="checkbox" id="toggle">
+
+  <!-- 헤더영역 시작 -->
+  <header>
+    <div class="modal">
+      <div class="m_inner">
+        <a href="#" title=""><img src="./images/modal.png" alt="모달이미지"></a>
+
+          <button class="c_btn">닫기</button>
+
+      </div>
+    </div>
+
+    <div class="header_inner">
+      <h1>
+        <a href="index.html" title="메인페이지로 바로가기">
+          <img src="./images/logo.png" alt="오설록로고">
+        </a>
+      </h1>
+
+      <!-- 오른쪽 상단 내비게이션 local Navigation Bar -->
+      <nav class="lnb">
+        <ul>
+          <li><a href="index.html" title="홈으로">home</a></li>
+          <li><a href="franchise.html" title="프렌차이즈">franchise</a></li>
+          <li><a href="event.html" title="이벤트">event</a></li>
+          <li><a href="join.html" title="회원가입">join</a></li>
+          <li><a href="login.html" title="로그인">login</a></li>
+          <li><a href="admin.html" title="관리자">admin</a></li>
+          <li>
+            <input type="search" id="sh" placeholder="검색어 입력">
+            <label for="sh"><i class="fas fa-search"></i></label>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- 모바일, 태블릿에서 보여주기 위한 메뉴, 버튼 -->
+      <label for="toggle" id="t_btn"><i class="fas fa-bars"></i></label>
+      
+      <i class="fas fa-search m_search"></i>
+    </div>
+
+    <!-- 메인메뉴 2단 내비게이션 -->
+    <nav class="gnb">
+      <label for="toggle"><i class="fas fa-times"></i></label>
+      <ul>
+        <li><a href="#" title="제품">제품<i class="fas fa-angle-down"></i></a>
+          <ul class="sub">
+            <li><a href="brand.html" title="티 제품">티 제품</a></li>
+            <li><a href="coffee.html" title="베스트">베스트</a></li>
+            <li><a href="coffee.html" title="티 세트">티 세트</a></li>
+            <li><a href="coffee.html" title="녹차">녹차</a></li>
+            <li><a href="coffee.html" title="발효차/홍차">발효차/홍차</a></li>
+            <li><a href="coffee.html" title="블렌디드티">블렌디드티</a></li>
+            <li><a href="coffee.html" title="허브티">허브티</a></li>
+            <li><a href="coffee.html" title="말차/밀크티/콤부차">말차/밀크티/콤부차</a></li>
+          </ul>
+        </li>
+        <li><a href="#" title="선물추천">선물추천<i class="fas fa-angle-down"></i></a>
+          <ul class="sub">
+            <li><a href="menu.html" title="티 푸드">티 푸드</a></li>
+            <li><a href="b.html" title="과자/초콜릿">과자/초콜릿</a></li>
+            <li><a href="b.html" title="베이커리">베이커리</a></li>
+          </ul>
+        </li>
+        <li><a href="store.html" title="브랜드">브랜드<i class="fas fa-angle-down"></i></a>
+          <ul class="sub">
+            <li><a href="store.html" title="오설록 스토리">오설록 스토리</a></li>
+            <li><a href="store.html" title="제주 티뮤지엄">제주 티뮤지엄</a></li>
+            <li><a href="store.html" title="오설록 1979">오설록 1979</a></li>
+            <li><a href="store.html" title="매장소개 및 예약">매장소개 및 예약</a></li>
+          </ul>
+        </li>
+        <li><a href="community.html" title="단체 및 기업구매">단체 및 기업구매<i class="fas fa-angle-down"></i></a>
+          <ul class="sub">
+            <li><a href="d.html" title="이벤트">이벤트</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 메인콘텐츠 시작 -->
+  <main>
+    <article class="slide">
+      <h2>메인슬라이드</h2>
+      <!-- 반응형 슬라이드 -->
+      <div class="flexslider">
+        <ul class="slides">
+          <li><img src="./images/banner1.png" alt="메인이미지1"></li>
+          <li><img src="./images/banner2.png" alt="메인이미지2"></li>
+
+        </ul>
+      </div>
+    </article>
+
+    <section class="con">
+      <h2>메인콘텐츠 영역</h2>
+      
+      <article class="banner">
+        <h2>신제품 광고</h2>
+        <a href="#" title="이벤트">
+          <img src="./images/con1.png" alt="이벤트">
+        </a>
+      </article>
+
+      <article class="story">
+        <h2>제품소개</h2>
+        <a href="#" title="프리미엄 티" class="bs">
+          <img src="./images/con2.png" alt="프리미엄 티" id="bs_img">
+        </a>
+        <a href="#" title="블렌디드 티"  class="fr">
+          <img src="./images/con3.png" alt="블렌디드 티">
+        </a>
+      </article>
+
+      <article class="ad">
+        <h2>TV광고</h2>
+        <a href="#" title="베스트">
+          <img src="./images/con4.png" alt="베스트">
+        </a>
+      </article>
+
+      <article class="notice">
+        <h2 class="title">공지사항<i class="fas fa-plus"></i></h2>
+        <ul>
+          <li><a href="a.html" title="내용">티 크리에이터 4기 서류 합격자 발표</a></li>
+          <li><a href="a.html" title="내용">[공지] 오설록 일부 세트 제품 소비자가 조정 안내</a></li>
+          <li><a href="a.html" title="내용">[공지] 2025년 설 보자기 상품별 보자기 색 안내</a></li>
+          <li><a href="a.html" title="내용"><i class="fa-solid fa-chevron-right"></i> 더보기</a></li>
+        </ul>
+      </article>
+
+      <article class="store">
+        <h2>store</h2>
+        <a href="#" title="스토어">
+          <img src="./images/con6.png" alt="스토어" id="store_img">
+        </a>
+      </article>
+
+      <article class="special">
+        <h2>special</h2>
+        <a href="#" title="기획전">
+          <img src="./images/con7.png" alt="기획전">
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <!-- 푸터영역 시작 -->
+  <footer>
+    <h2><a href="#" title="푸터로고"><img src="./images/logo_footer.png" alt="푸터로고"></a></h2>
+    <nav class="f_lnb">
+      <ul>
+        <li><a href="a.html" title="회사소개">회사소개 / 오시는길</a></li>
+        <li><a href="a.html" title="가맹안내">가맹안내</a></li>
+        <li><a href="tel:080-0000-0000" title="가맹문의">가맹문의 : 080-0000-0000</a></li>
+        <li><a href="tel:080-0000-0000" title="일반문의">일반문의 : 080-0000-0000</a></li>
+        <li><a href="tel:080-0000-0000" title="홍보">홍보, 마케팅 문의 : 080-0000-0000</a></li>
+      </ul>
+    </nav>
+
+    <nav class="sns">
+      <ul>
+        <li><a href="s.html" title="카카오스토리"><img src="./images/foot_sns01.png" alt="카카오스토리 이미지"></a></li>
+        <li><a href="f.html" title="페이스북"><img src="./images/foot_sns02.png" alt="페이스북 이미지"></a></li>
+        <li><a href="t.html" title="트위터"><img src="./images/foot_sns03.png" alt="트위터 이미지"></a></li>
+        <li><a href="i.html" title="인스타그램"><img src="./images/foot_sns04.png" alt="인스타그램"></a></li>
+        <li><a href="b.html" title="블로그"><img src="./images/foot_sns05.png" alt="블로그"></a></li>
+      </ul>
+    </nav>
+
+    <address>
+      <p>(주)치어스 &amp; 경기도 분당구 성남대로 000번길 0-00 모선빌딩 0층</p>
+      <p>법인등록번호 0000-0000 Copyrights&copy;2021 ssunikorea all rights reserved.</p>
+    </address>
+  </footer>
+  
+  <script>
+
+
+
+    // html문서가 로딩이 끝나면 슬라이드를 동작하게 한다.
+    $(window).load(function() {
+      $('.flexslider').flexslider({
+        animation: "slide"
+      });
+    });
+
+    window.addEventListener('resize', function(){
+      const mnu = document.querySelectorAll('.gnb > ul > li > a');
+      let w = this.innerWidth; //현재 브라우저창의 너비값을 변수에 담아
+      console.log(w); //출력해본다.
+
+      //만약에 768보다 아래이면 모바일 내비게이션 서브 클릭시 나오게
+      if(w<768){
+
+        //메인메뉴 클릭시 서브메뉴 나오게 한다.
+        mnu.forEach(function(item){
+          item.addEventListener('click', function(e){
+            
+            e.preventDefault(); //이벤트 무력화(새로고침방지)
+
+            const subMnu = item.nextElementSibling;
+            if(subMnu && subMnu.classList.contains('sub')){
+              
+              subMnu.classList.toggle('act');
+
+              const icon = item.querySelector('.fa-angle-down');
+
+              if(icon){
+                icon.classList.toggle('rotate');
+              }
+            }
+          });
+        })
+      }//다시 클릭시 서브메뉴 숨긴다.
+      });
+
+      
+  $(document).ready(function(){
+  $('.modal').fadeIn(); 
+  $('.modal button').click(function(){ 
+    $('.modal').fadeOut(); 
+    });
+    });
+
+  </script>
+</body>
+</html>
